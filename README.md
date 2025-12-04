@@ -8,3 +8,6 @@ Day one and mistake one: open the big input file and do not assume your integers
 ## Day 2: Gift Shop
 OK I completely overenginered the first part and then wrote a reasonable 15 lines of code to solve both parts instead. A little bit bruteforce-ing all possible invalid IDs and then checking if they appear in one of the ranges but that's, on the other hand, fast enough to work and easy to grasp.
 
+
+## Day 3: Lobby
+Actually easier than both day 1 and 2.
