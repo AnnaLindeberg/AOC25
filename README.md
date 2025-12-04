@@ -4,3 +4,7 @@ December has started, I forgot, but let's go! The initial idea was to learn Rust
 ## Day 1: Secret Entrance
 Day one and mistake one: open the big input file and do not assume your integers lie in the range [0,99].
 
+
+## Day 2: Gift Shop
+OK I completely overenginered the first part and then wrote a reasonable 15 lines of code to solve both parts instead. A little bit bruteforce-ing all possible invalid IDs and then checking if they appear in one of the ranges but that's, on the other hand, fast enough to work and easy to grasp.
+
