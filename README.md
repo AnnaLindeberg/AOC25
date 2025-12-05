@@ -11,3 +11,6 @@ OK I completely overenginered the first part and then wrote a reasonable 15 line
 
 ## Day 3: Lobby
 Actually easier than both day 1 and 2.
+
+## Day 4: Printing Department
+First graph problem on day four is nice. It's also easy to solve with networkx!
