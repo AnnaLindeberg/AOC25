@@ -14,3 +14,6 @@ Actually easier than both day 1 and 2.
 
 ## Day 4: Printing Department
 First graph problem on day four is nice. It's also easy to solve with networkx!
+
+## Day 5: Cafeteria
+I "merged" the given ranges to check containment and length of the ranges. I'm pretty sure that I've written the merging-code for AOC some earlier year... 
