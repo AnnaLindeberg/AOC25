@@ -18,3 +18,6 @@ I "merged" the given ranges to check containment and length of the ranges. I'm p
 
 ## Day 6: Trash Compactor
 This was mostly about parsing strings, which is maybe not the most fun part of AOC. Python has no `prod` function (unlike built-in `sum`), I wonder why? Maybe it's just useful for this type of recreational coding, though...
+
+## Day 7: Laboratories
+This was a fun one! The first part I calculated top-down, keeping track of the beam-positions in the row above only and simply counting each time a beam split. For the second part, I work bottom-up instead, keeping an array consisting of the number of different paths that exist below a certain x-position. These initialize to 1, and then get zero'd when they are right under a splitter. Right above a splitter, the number of paths is just the sum of the number of paths going left resp. right. Quite neat and straightforward – dynamic programming I'd say, or?
