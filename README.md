@@ -21,3 +21,6 @@ This was mostly about parsing strings, which is maybe not the most fun part of A
 
 ## Day 7: Laboratories
 This was a fun one! The first part I calculated top-down, keeping track of the beam-positions in the row above only and simply counting each time a beam split. For the second part, I work bottom-up instead, keeping an array consisting of the number of different paths that exist below a certain x-position. These initialize to 1, and then get zero'd when they are right under a splitter. Right above a splitter, the number of paths is just the sum of the number of paths going left resp. right. Quite neat and straightforward – dynamic programming I'd say, or?
+
+## Day 8: Playground
+Ahh hm my slowest solve so-far this year, and mostly because I misinterpreted how to count to the first 10/1000 added connections. When I figured that out, the second part was more or less just an additional if-clause. The runtime is rather slow though, due to the computation of *all* pairwise distances. I think one can use the triangle inequality and some tricks to avoid computing some of them but I couldn't be bothered...
