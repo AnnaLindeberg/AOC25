@@ -38,3 +38,7 @@ Update: indeed so! Since I don't think I've ever bothered with trying to approac
 ## Day 11: Reactor
 A straight-off graph problem that I can solve! Nice
 
+
+## Day 12: Christmas Tree Farm
+Sounded completely ridiculous to solve (like ever) but I scrolled passed some jokes on the AOC subreddit and just did the bare bone check of wheter so-and-so many 3x3 blocks fit in each given region. That's the answer and I have my first full advent of code! Granted, only 12 days, but still!
+
