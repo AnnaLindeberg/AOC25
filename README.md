@@ -24,3 +24,17 @@ This was a fun one! The first part I calculated top-down, keeping track of the b
 
 ## Day 8: Playground
 Ahh hm my slowest solve so-far this year, and mostly because I misinterpreted how to count to the first 10/1000 added connections. When I figured that out, the second part was more or less just an additional if-clause. The runtime is rather slow though, due to the computation of *all* pairwise distances. I think one can use the triangle inequality and some tricks to avoid computing some of them but I couldn't be bothered...
+
+## Day 9: Movie Theatre
+I have a very clear recollection that AOC has stumped me with these polygon-shape things before! First part is an easy solve but the solution to part 2 is way to slow to compute. 
+
+Update: came back and "compressed" the given coordinates, so that each coordinate correspond to a rectangle in the actual input. This was just barely enough to get it to run in ~30 seconds, which is good enough for me. In particular it means that I didn't have to exploit that the input polygon had a very particular shape...
+
+## Day 10: Factory
+First part with a BFS run. Second part is unfeasable to do that way, probably need some linear programming. For another time...
+
+Update: indeed so! Since I don't think I've ever bothered with trying to approach LP I just read the scipy-docs for `optimization` and solved with a neat `mips` function. Cool!
+
+## Day 11: Reactor
+A straight-off graph problem that I can solve! Nice
+
